@@ -12,3 +12,4 @@
 
 
     Route::post('auth/user-login', [LoginController::class, 'userLogin']);
+    Route::post('auth/user-logout', [LoginController::class, 'userLogout']);
